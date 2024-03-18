@@ -1,6 +1,9 @@
-h1 {
+* {
   font-family: Poppins, sans-serif;
-  font-size: 44px;
+}
+
+h1 {
+  font-size: 40px;
   font-weight: 700;
   line-height: 52px;
   letter-spacing: 0;
@@ -22,13 +25,16 @@ h1 {
   width: 76px;
   height: 20px;
   color: #6070ff;
-  font-family: Poppins, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0;
   text-align: center;
   padding: 9px 18px;
+}
+
+body {
+  background: #f7f7f9;
 }
 
 .icon {
@@ -53,8 +59,7 @@ h1 {
 }
 
 .description p {
-  font-family: Poppins, sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0;
@@ -67,7 +72,6 @@ h1 {
 a {
   color: #7f8cff;
   text-decoration: none;
-  font-family: Poppins, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -96,11 +100,8 @@ a {
 
 .about {
   width: 375px;
-  height: 216%;
-  top: 718px;
-  background: #f7f7f9;
   padding: 43px 0 114px 0;
-  position: absolute;
+  position: relative;
 }
 
 .outer-container {
@@ -108,7 +109,7 @@ a {
   grid-template-rows: repeat(4, auto);
   grid-row-gap: 83px;
   width: 375px;
-  height: 604px;
+  height: fit-content;
   position: relative;
   top: 60px;
   margin-left: 4%;
@@ -161,6 +162,13 @@ a {
   -o-border-radius: 16px;
 }
 
+.Languages img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 14px;
+  margin-left: 134px;
+}
+
 .social-icons li img {
   width: 19.96px; /* Adjust the size of the icons */
   height: 19.96px;
@@ -172,7 +180,6 @@ a {
 }
 
 .row1 h1 {
-  font-family: Poppins, sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 44px;
@@ -193,7 +200,6 @@ span i {
 }
 
 #Project {
-  font-family: Poppins, sans-serif;
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
@@ -202,7 +208,6 @@ span i {
 }
 
 #role span {
-  font-family: Poppins, sans-serif;
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
@@ -213,7 +218,6 @@ span i {
 .row1 p {
   width: 295px;
   height: 76px;
-  font-family: Poppins, sans-serif;
   font-size: 17px;
   font-weight: 400;
   line-height: 24px;
@@ -231,7 +235,6 @@ span i {
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
   background-color: #ebebff;
-  font-family: Poppins, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
@@ -256,10 +259,107 @@ span i {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
-  font-family: Poppins, sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
+}
+
+.aboutMy {
+  width: 386px;
+  height: fit-content;
+  background: #fff;
+  border-radius: 0 88px 0 0;
+}
+
+.get {
+  width: 162px;
+  height: 48px;
+  top: 30px;
+  position: relative;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #6070ff;
+  background: none;
+  color: #6070ff;
+  gap: 10px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.aboutMy .social-icons li img {
+  width: 19.96px; /* Adjust the size of the icons */
+  height: 19.96px;
+  margin-left: 12px;
+}
+
+.aboutMy .description p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-top: 0;
+  padding: 3px 18px 0 29px;
+  width: 303px;
+}
+
+.knowledge {
+  padding: 3px 86px 0 49px;
+  margin-top: 180px;
+}
+
+.Languages {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  width: 327px;
+  height: 72px;
+}
+
+.Languages .union {
+  width: 8px;
+  height: 14px;
+  margin-bottom: 14px;
+}
+
+.indLang {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background: #f7f7f9;
+  border-radius: 8px;
+  width: 270px;
+  height: 66.72px;
+  padding: 4px 9px;
+  margin-bottom: 13px;
+}
+
+.indLang h4 {
+  margin-left: 12px;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  width: 215px;
+  height: 24px;
+}
+
+.framework {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 86px 0 49px;
+}
+
+hr {
+  width: 327px;
+  height: 1px;
 }
