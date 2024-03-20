@@ -323,9 +323,13 @@ span i {
 .Languages {
   display: flex;
   justify-content: start;
-  align-items: end;
+  align-items: baseline;
   width: 327px;
   height: 72px;
+  font-size: 17px;
+}
+.Languages i{
+  margin-left: 140px;
 }
 
 .Languages .union {
@@ -361,6 +365,19 @@ span i {
   align-items: center;
   padding: 3px 86px 0 49px;
 }
+.framework i{
+  margin-left: 135px;
+}
+.skills {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 3px 86px 0 49px;
+}
+.skills i{
+  margin-left:207px;
+}
+
 
 hr {
   width: 327px;
