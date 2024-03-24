@@ -368,13 +368,13 @@ span i {
 .framework i{
   margin-left: 135px;
 }
-.skills {
+.skill {
   display: flex;
   justify-content: start;
   align-items: center;
   padding: 3px 86px 0 49px;
 }
-.skills i{
+.skill i{
   margin-left:207px;
 }
 
