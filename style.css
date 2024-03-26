@@ -738,9 +738,9 @@ hr {
     width: 100%;
     background: #6070ff url("./assets/images/contactbg.png") no-repeat;
     background-size: 87%;
-    background-position-y: 54%;
-    background-position-x: 66%;
-    height: 98vh;
+    background-position-y: 70%;
+    background-position-x: 45%;
+    height: 123vh;
   }
 
   .form_title {
@@ -751,7 +751,7 @@ hr {
 
   .form_description {
     text-align: center;
-    width: 40%;
+    width: 37%;
     margin-left: 31%;
     padding-bottom: 1%;
     height: fit-content;
