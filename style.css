@@ -495,3 +495,29 @@ hr {
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
 }
+
+@media screen and (min-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  .navbar {
+    width: 80%;
+    padding-top: 0;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 28%;
+    width: 100%;
+  }
+
+  .logo {
+    margin-left: 10%;
+  }
+
+  .icon {
+    display: none;
+  }
+}
