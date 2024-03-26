@@ -412,7 +412,7 @@ hr {
 }
 
 .contact-form {
-  background: #6070ff url(/assets/images/contact.png) no-repeat;
+  background: #6070ff url("./assets/images/contact.png") no-repeat;
   background-size: 62%;
   background-position: right;
   background-position-y: 10px;
@@ -736,7 +736,7 @@ hr {
 
   .contact-form {
     width: 100%;
-    background: #6070ff url(/assets/images/contactbg.png) no-repeat;
+    background: #6070ff url("./assets/images/contactbg.png") no-repeat;
     background-size: 87%;
     background-position-y: 54%;
     background-position-x: 66%;
