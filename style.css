@@ -4,6 +4,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background: #f7f7f9;
+}
+
 h1 {
   font-size: 40px;
   font-weight: 700;
@@ -13,6 +17,12 @@ h1 {
   padding: 93px 18px 0 29px;
   color: #172b4d;
   margin-bottom: 10px;
+  margin-top: 0;
+}
+
+header {
+  background-color: white;
+  width: 375px;
 }
 
 .navbar {
@@ -20,7 +30,18 @@ h1 {
   justify-content: space-between;
   width: 375px;
   height: 48px;
-  margin-top: 48px;
+  padding-top: 48px;
+  align-items: center;
+}
+
+.nav-links {
+  justify-content: space-between;
+  display: none;
+}
+
+.nav-links li {
+  list-style: none; /* Remove the dots */
+  margin-right: 5%;
 }
 
 .logo {
@@ -33,10 +54,6 @@ h1 {
   letter-spacing: 0;
   text-align: center;
   padding: 9px 18px;
-}
-
-body {
-  background: #f7f7f9;
 }
 
 .icon {
@@ -104,6 +121,7 @@ a {
   width: 375px;
   padding: 43px 0 114px 0;
   position: relative;
+  background: #f7f7f9;
 }
 
 .outer-container {
@@ -226,6 +244,7 @@ span i {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
+  color: #344563;
 }
 
 .row1 .skills {
@@ -328,7 +347,8 @@ span i {
   height: 72px;
   font-size: 17px;
 }
-.Languages i{
+
+.Languages i {
   margin-left: 140px;
 }
 
@@ -365,19 +385,21 @@ span i {
   align-items: center;
   padding: 3px 86px 0 49px;
 }
-.framework i{
+
+.framework i {
   margin-left: 135px;
 }
+
 .skill {
   display: flex;
   justify-content: start;
   align-items: center;
   padding: 3px 86px 0 49px;
 }
-.skill i{
-  margin-left:207px;
-}
 
+.skill i {
+  margin-left: 207px;
+}
 
 hr {
   width: 327px;
