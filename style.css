@@ -650,4 +650,87 @@ hr {
     margin-left: 4%;
     margin-top: 1%;
   }
+
+  .aboutMy {
+    width: 100%;
+    margin-top: 10%;
+    border-radius: 0 131px 0 0;
+  }
+
+  .aboutMyDiv {
+    display: flex;
+    width: 100%;
+    align-items: first baseline;
+  }
+
+  .aboutMyDiv .basics {
+    width: 37%;
+    padding-top: 3%;
+    padding-left: 7%;
+  }
+
+  .aboutMy .description {
+    width: 85%;
+    height: 146px;
+    margin-top: 0;
+  }
+
+  .aboutMy .description p {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .aboutMy .advanced {
+    flex: 2;
+  }
+
+  .knowledge {
+    margin-top: 0;
+    width: 73%;
+  }
+
+  .Languages {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .indLangs {
+    display: flex;
+  }
+
+  .indLang {
+    display: block;
+    width: 17%;
+    margin-right: 2%;
+    height: fit-content;
+  }
+
+  .indLang img {
+    margin-top: 7%;
+  }
+
+  .indLang h4 {
+    margin-left: 0;
+    margin-top: 7px;
+    margin-bottom: 16px;
+  }
+
+  hr {
+    width: 73%;
+    margin-left: 6%;
+  }
+
+  .framework {
+    width: 71%;
+    padding-left: 7%;
+  }
+
+  .skill {
+    width: 71%;
+    padding-left: 7%;
+  }
+
+  .skill i {
+    margin-left: 90%;
+  }
 }
